@@ -1,0 +1,6 @@
+npm init -y
+npm install @capacitor/core @capacitor/cli @capacitor/android
+npx cap init "مكتبة سبيل النجاة" com.sabilalnajah.library --web-dir .
+npx cap add android
+npx cap sync
+npx cap open android
